@@ -1,11 +1,17 @@
 # Zero Feature Release
 
-##Group 3 members and Github accounts
+**Group 3 members and Github accounts**
+
 Elliot Roberts - https://github.com/erobertsmt
+
 Jake Hopkins - https://github.com/HoboHoppy
+
 Leah Becker - https://github.com/lbecker137
+
 Matthew Wheeler - https://github.com/mc-wheeler
+
 Aidan Pendergast - https://github.com/append08
+
 Radley Robertson - https://github.com/Raadley
 
 ## Product Website
