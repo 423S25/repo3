@@ -5,13 +5,15 @@ The product is a staff intranet page that will provide links to various resource
 
 The webpage will also provide a news section where admin users can place new pieces of information as it becomes relevant to user.
 
-The webpage will also provide different tabs for different levels of employees such as volunteer, staff and admin.
+There will be a document search feature on the webpage that allows users to navigate documents that are now stored in the HRDC Google Drive folder. This search feature would use tags for certain document types to promote the easier finding of documents. For example: A "timesheet" tag for timesheets so that they are easily found within the whole of HRDC's document array. 
+
+The webpage will also provide different tabs for different levels of employees such as volunteer, staff, and admin.
 
 Admin users should have a login feature that allows them to edit the page and make changes to content.
 
 ## User Documentation
 
-**Description:**  The product is a staff intranet page that will provide links to various resources within the HRDC organization. Its key features would be commonly used links and resources as well as the ability to be edited by admin users.
+**Description:**  The product is a staff intranet page that will provide links to various resources within the HRDC organization. Its key features would be commonly used links and resources, a detailed search function with assignable tags for all HRDC documents,  and the ability to be edited by admin users.
 
 **Install Instructions:** TBD
 
