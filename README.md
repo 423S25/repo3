@@ -1,5 +1,13 @@
 # Zero Feature Release
 
+##Group 3 members and Github accounts
+Elliot Roberts - https://github.com/erobertsmt
+Jake Hopkins - https://github.com/HoboHoppy
+Leah Becker - https://github.com/lbecker137
+Matthew Wheeler - https://github.com/mc-wheeler
+Aidan Pendergast - https://github.com/append08
+Radley Robertson - https://github.com/Raadley
+
 ## Product Website
 The product is a staff intranet page that will provide links to various resources within the HRDC organization. The webpage should be easy to navigate and have important and new updated information easily accessible. Near the top will be a header containing commonly used resources such as a link to the webpage used to fill out time sheets and other links accessed on a regular basis. We plan to use Plone as the framework.
 
