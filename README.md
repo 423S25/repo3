@@ -31,13 +31,13 @@ Admin users should have a login feature that allows them to edit the page and ma
 
 **Install Instructions:** TBD
 
-**How to Run:** TBD
+**How to Run:** Connect to the MSU vpn then go to http://esof423vm.cs.montana.edu:3000/
 
-**How to Install:** TBD
+**How to Install:** The site is hosted so installation is unnecessary.
 
-**How to Use:** TBD
+**How to Use:** Signing into the site as admin will allow full editing previleges.
 
-**How to Report a Bug:** TBD
+**How to Report a Bug:** Email matthew.wheeler2@student.montana.edu
 
 ## Developer Documentation
 
