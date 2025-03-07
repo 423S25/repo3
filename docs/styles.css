@@ -50,7 +50,7 @@ p {
 }
 
 /* Features section */
-.features ul {
+.features ul{
     list-style-type: none;
     padding-left: 0;
 }
@@ -62,6 +62,12 @@ p {
 
 .features li b {
     color: #2a4d76;
+}
+
+.features ol {
+    list-style-type: none;
+    padding-left: 0;
+    margin-bottom: 5px;
 }
 
 /* Documentation links section */
