@@ -3,62 +3,53 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Group 3 Product Website</title>
+    <meta name="description" content="Welcome to the HRDC Product website. Learn about the project and explore detailed documentation for users and developers.">
+    <title>HRDC Product</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS stylesheet -->
 </head>
 <body>
-    <h1>Group 3 Product Website</h1>
+    <!-- Header Section -->
+    <header>
+        <div class="header-content">
+            <h1>Welcome to the HRDC Product</h1>
+            <p>Learn about the HRDC Product and access essential resources and documentation.</p>
+        </div>
+    </header>
 
-    <h3>Group 3 Members and Github Accounts</h3>
-    <ul>
-        <li><a href="https://github.com/erobertsmt">Elliot Roberts</a></li>
-        <li><a href="https://github.com/HoboHoppy">Jake Hopkins</a></li>
-        <li><a href="https://github.com/lbecker137">Leah Becker</a></li>
-        <li><a href="https://github.com/mc-wheeler">Matthew Wheeler</a></li>
-        <li><a href="https://github.com/append08">Aidan Pendergast</a></li>
-        <li><a href="https://github.com/Raadley">Radley Robertson</a></li>
-    </ul>
+    <!-- Main Content Section -->
+    <main>
+        <!-- Product Overview Section -->
+        <section class="overview">
+            <h2>About the HRDC Product</h2>
+            <p>The HRDC Product is a cutting-edge solution designed to improve human resource development and management processes. Built with scalability and flexibility in mind, the product streamlines workflows, enhances productivity, and provides comprehensive tools to support HR professionals in various industries.</p>
+            <p>Our goal is to offer a reliable, user-friendly platform that can be easily integrated into existing HR systems, delivering innovative solutions for both small and large organizations.</p>
+        </section>
 
-    <h2>Product Info</h2>
-    <p>The product is a staff intranet page that will provide links to various resources within the HRDC organization. The webpage should be easy to navigate and have important and new updated information easily accessible. Near the top will be a header containing commonly used resources such as a link to the webpage used to fill out time sheets and other links accessed on a regular basis. We plan to use Plone as the framework.</p>
-    
-    <p>The webpage will also provide a news section where admin users can place new pieces of information as it becomes relevant to users.</p>
-    
-    <p>There will be a document search feature on the webpage that allows users to navigate documents that are now stored in the HRDC Google Drive folder. This search feature would use tags for certain document types to promote the easier finding of documents. For example: A "timesheet" tag for timesheets so that they are easily found within the whole of HRDC's document array.</p>
-    
-    <p>The webpage will also provide different tabs for different levels of employees such as volunteer, staff, and admin.</p>
-    
-    <p>Admin users should have a login feature that allows them to edit the page and make changes to content.</p>
+        <!-- Key Features -->
+        <section class="features">
+            <h2>Key Features</h2>
+            <ul>
+                <li>Intuitive Interface for Easy Navigation</li>
+                <li>Comprehensive HR Tools for Employee and Volunteer Management</li>
+                <li>Powerful Data Analytics and Reporting Capabilities</li>
+                <li>Scalable Architecture to Meet Diverse Organizational Needs</li>
+                <li>Robust Security Features to Protect Sensitive Data</li>
+            </ul>
+        </section>
 
-    <h2>User Documentation</h2>
-    <p><strong>Description:</strong> The product is a staff intranet page that will provide links to various resources within the HRDC organization. Its key features include commonly used links and resources, a detailed search function with assignable tags for all HRDC documents, and the ability for admin users to edit the page.</p>
-
-    <p><strong>Install Instructions:</strong> TBD</p>
-    <p><strong>How to Run:</strong> Connect to the MSU vpn then go to http://esof423vm.cs.montana.edu:3000/</p>
-    <p><strong>How to Install:</strong> The site is hosted so installation is unnecessary.</p>
-    <p><strong>How to Use:</strong> Signing into the site as admin will allow full editing previleges.</p>
-    <p><strong>How to Report a Bug:</strong> Email matthew.wheeler2@student.montana.edu</p>
-
-    <h2>Developer Documentation</h2>
-    <p><strong>Obtain Source Code:</strong> Clone the GitHub repo using: <code>git clone https://github.com/423S25/project3.git</code></p>
-
-    <p><strong>Planned Directory Structure:</strong> A main folder containing the README.md as well as links to other documentation. A sub-folder containing all the files for the webpage.</p>
-
-    <p><strong>How to Build:</strong></p>
-    <ul>
-        <li>Install Plone 6: <a href="https://6.docs.plone.org/install/index.html">Plone Installation Docs</a></li>
-        <li>Clone the repo: <code>git clone https://github.com/423S25/project3.git</code></li>
-        <li>Run the index.html page</li>
-    </ul>
-
-    <p><strong>How to Test:</strong> TBD</p>
-    <p><strong>How to Automate Testing:</strong> TBD</p>
-    <p><strong>How to Release a Version:</strong> TBD</p>
-    <p><strong>Bug Tracking:</strong> TBD</p>
-
-    <h2>Developer Documentation - Notes</h2>
-    <p>If you link to another document, make sure it is publicly readable.</p>
-
-    <h2>Class Diagram</h2>
-    <img src="images/diagram.jpeg" width="35%" alt="Class Diagram"> 
+        <!-- Documentation Links -->
+        <section class="documentation-links">
+            <h2>Documentation</h2>
+            <p>Explore the following resources to get started with the HRDC Product:</p>
+            <div class="doc-card">
+                <h3><a href="/user-documentation">User Documentation</a></h3>
+                <p>Comprehensive guides and instructions for end-users to get the most out of the HRDC Product.</p>
+            </div>
+            <div class="doc-card">
+                <h3><a href="/developer-documentation">Developer Documentation</a></h3>
+                <p>Technical documentation, API references, and setup guides for developers integrating or extending the product.</p>
+            </div>
+        </section>
+    </main>
 </body>
 </html>
