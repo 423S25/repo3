@@ -49,22 +49,22 @@ p {
     line-height: 1.8;
 }
 
-/* Features section */
-.features ul{
+/* Subcategory section */
+.subcat ul{
     list-style-type: none;
     padding-left: 0;
 }
 
-.features li {
+.subcat li {
     margin-bottom: 15px;
     font-size: 1.1rem;
 }
 
-.features li b {
+.subcat li b {
     color: #2a4d76;
 }
 
-.features ol {
+.subcat ol {
     list-style-type: none;
     padding-left: 0;
     margin-bottom: 5px;
