@@ -15,7 +15,7 @@ Aidan Pendergast - https://github.com/append08
 Radley Robertson - https://github.com/Raadley
 
 ## Product Website
-The product is a staff intranet page that will provide links to various resources within the HRDC organization. The webpage should be easy to navigate and have important and new updated information easily accessible. Near the top will be a header containing commonly used resources such as a link to the webpage used to fill out time sheets and other links accessed on a regular basis. We plan to use Plone as the framework.
+The product is a staff intranet page that will provide links to various resources within the HRDC organization. The webpage should be easy to navigate and have important and new updated information easily accessible. Near the top will be a header containing commonly used resources such as a link to the webpage used to fill out time sheets and other links accessed on a regular basis. The site will provide a login function that will allow admin users to edit aspects of the site. We are using WordPress as our framework and hosting it on Render.com.
 
 The webpage will also provide a news section where admin users can place new pieces of information as it becomes relevant to user.
 
@@ -29,15 +29,9 @@ Admin users should have a login feature that allows them to edit the page and ma
 
 **Description:**  The product is a staff intranet page that will provide links to various resources within the HRDC organization. Its key features would be commonly used links and resources, a detailed search function with assignable tags for all HRDC documents,  and the ability to be edited by admin users.
 
-**Install Instructions:** TBD
+**How to access** Go to https://wordpress-t8kb.onrender.com
 
-**How to Run:** Connect to the MSU vpn then go to http://esof423vm.cs.montana.edu:3000/
-
-**How to Install:** The site is hosted so installation is unnecessary.
-
-**How to Use:** Signing into the site as admin will allow full editing previleges.
-
-**How to Report a Bug:** Email matthew.wheeler2@student.montana.edu
+**Admin Login** Click the log in button in the top right. Enter valid credentials for an admin user.
 
 ## Developer Documentation
 
