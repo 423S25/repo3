@@ -35,22 +35,15 @@ Admin users should have a login feature that allows them to edit the page and ma
 
 ## Developer Documentation
 
-**Obtain Source Code:** Clone github repo using  `git clone https://github.com/423S25/project3.git`
+**Access Editor Version of Site:** Go to https://wordpress-t8kb.onrender.com/login and enter valid login credentials.
 
-**Planned Directory Structure:** A main folder containing the README.md as well as links to other documentation. Sub-folder containing all the files for the webpage.
+**How to Test:** Use selenium web testing for testing. Website is completely web contained.
 
-**How to Build:**
-1. Install Plone 6 https://6.docs.plone.org/install/index.html
-2. Clone repo using `git clone https://github.com/423S25/project3.git`
-3. Run index.html page
+**How to Automated-Test:** Use selenium web testing for automated testing.
 
-**How to Test:** TDB
+**How to Release a Version:** Simply save an edit on the site.
 
-**How to Automated-Test:** TDB
-
-**How to Release a Version:** TDB
-
-**Bug Tracking:** TDB 
+**Bug Tracking:** Create issues on Gituhub.
 
 
 
