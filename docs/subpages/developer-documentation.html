@@ -18,75 +18,24 @@
     <main>
         <section class="subcat">
             <h2>Quick Start</h2>
-            <h3>Prerequisites</h3>
-            <p>Ensure you have the following installed:</p>
+            <p>Ensure you have the following</p>
             <ul>
-                <li>Python 3.11</li>
-                <li>Node 22</li>
-                <li>pnpm</li>
-                <li>Docker</li>
+                <li>Github</li>
+                <li>Render</li>
             </ul>
             
-            <h3>Installation</h3>
-            <p>Clone the repository:</p>
-            <pre><code>git clone https://github.com/erobertsmt/ESOF423.git</code></pre>
-            <p>Navigate to the directory:</p>
-            <pre><code>cd plonepractice</code></pre>
-            <p>Install both Backend and Frontend:</p>
-            <pre><code>make install</code></pre>
+            <h3>Setup From Scratch</h3>
+            <h4>Create MYSQL Database</h4>
+            <p>On your Github: Fork https://github.com/append08/mysql to your account.</p>
+            <p>On Render: Create new private service and link it to the forked github repository.</p>
+            <p>Add stuff</p>
+            <p>Deploy</p>
 
-            <h3>Fire Up the Servers</h3>
-            <p>Create a new Plone site on your first run:</p>
-            <pre><code>make backend-create-site</code></pre>
-            <p>Start the Backend at <a href="http://localhost:8080/">http://localhost:8080/</a>:</p>
-            <pre><code>make backend-start</code></pre>
-            <p>In a new terminal, start the Frontend at <a href="http://localhost:3000/">http://localhost:3000/</a>:</p>
-            <pre><code>make frontend-start</code></pre>
-        </section>
-
-        <!-- Local Stack Deployment Section -->
-        <section class="subcat">
-            <h2>Local Stack Deployment</h2>
-            <p>Deploy a local Docker Compose environment that includes:</p>
-            <ul>
-                <li>Docker images for Backend and Frontend</li>
-                <li>A stack with a Traefik router and a Postgres database</li>
-            </ul>
-            <p>Execute the following commands:</p>
-            <pre><code>make stack-start</code></pre>
-            <pre><code>make stack-create-site</code></pre>
-        </section>
-
-        <!-- Project Structure Section -->
-        <section class="subcat">
-            <h2>Project Structure</h2>
-            <p>This monorepo consists of three distinct sections: backend, frontend, and devops.</p>
-            <ul>
-                <li><b>backend</b>: Houses the API and Plone installation, utilizing pip instead of buildout, and includes a policy package named plonepractice.</li>
-                <li><b>frontend</b>: Contains the React (Volto) package.</li>
-                <li><b>devops</b>: Encompasses Docker Stack, Ansible playbooks, and Cache settings.</li>
-            </ul>
-            <h3>Why This Structure?</h3>
-            <ul>
-                <li>All necessary codebases to run the site are contained within the repo (excluding existing addons for Plone and React).</li>
-                <li>Specific GitHub Workflows are triggered based on changes in each codebase (refer to .github/workflows).</li>
-                <li>Simplifies the creation of Docker images for each codebase.</li>
-                <li>Demonstrates Plone installation/setup without buildout.</li>
-            </ul>
-        </section>
-
-        <!-- Code Quality Assurance Section -->
-        <section class="subcat">
-            <h2>Code Quality Assurance</h2>
-            <p>To automatically format your code and ensure it adheres to quality standards, execute:</p>
-            <pre><code>make check</code></pre>
-            <p>Linters can be run individually within the backend or frontend folders.</p>
-        </section>
-
-        <!-- Credits Section -->
-        <section class="credits">
-            <h2>Credits and Acknowledgements - Because a lot of this is from Plone</h2>
-            <p>Generated using Cookieplone (0.8.4) and cookieplone-templates (630f297) on 2025-02-28 10:37:39.465789. A special thanks to all contributors and supporters!</p>
+            <h4>Create Site</h4>
+            <p>On your Github: Fork https://github.com/append08/wordpress to your account.</p>
+            <p>On Render: Create new private service and link it to the forked github repository.</p>
+            <p>Attach the site to the MYSQL database.</p>
+            <p>Deploy and access the URL</p>
         </section>
     </main>
 
