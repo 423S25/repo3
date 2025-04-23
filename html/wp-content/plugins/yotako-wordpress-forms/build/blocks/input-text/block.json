@@ -1,0 +1,17 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "yotako-block/input-text",
+  "version": "0.1.0",
+  "title": "Yotako-Input-Text",
+  "category": "widgets",
+  "icon": "button",
+  "description": "Custom block to support yotako input-text",
+  "supports": {
+    "html": true
+  },
+  "textdomain": "input-text",
+  "editorScript": "file:./index.js",
+  "editorStyle": "file:./index.css",
+  "style": "file:./style-index.css"
+}
