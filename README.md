@@ -45,7 +45,7 @@ Admin users should have a login feature that allows them to edit the page and ma
 
 **Bug Tracking:** Create issues on Gituhub.
 
+**Shared Files Plugin Documentation:** https://www.sharedfilespro.com/docs/
 
-
-
+**Official WordPress Documentation:** https://wordpress.org/documentation/
 
