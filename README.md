@@ -1,4 +1,4 @@
-# Zero Feature Release
+# HRDC Intranet Documentation
 
 **Group 3 members and Github accounts**
 
