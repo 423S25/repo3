@@ -5,40 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Developer Documentation">
     <title>Developer Documentation</title>
-    <link rel="stylesheet" href="../styles.css">
+    <link rel="stylesheet" href="../styles.css"> <!-- Make sure this path is correct -->
 </head>
 <body>
 
     <header>
-        <div class="header-content">
-            <h1>Developer Documentation</h1>
-        </div>
+        <h1>Developer Documentation</h1>
     </header>
 
     <main>
-        <section class="subcat">
+        <section>
             <h2>Quick Start</h2>
-            <p>Ensure you have the following</p>
-            <ul>
-                <li>Github</li>
-                <li>Render</li>
+            <p>Ensure you have the following before getting started:</p>
+            <ul class="subcat">
+                <li><b>GitHub:</b> Used for version control and issue tracking.</li>
+                <li><b>Render:</b> For hosting the WordPress site and database.</li>
             </ul>
-            
-            <h3>Setup From Scratch</h3>
-            <p></p>
-            <h4>Create MYSQL Database</h4>
-            <p>On your Github: Fork https://github.com/append08/mysql to your account.</p>
-            <p>On Render: Create new private service and link it to the forked github repository.</p>
-            <p>Add stuff</p>
-            <p>Deploy</p>
-            <p></p>
-            <h4>Create Site</h4>
-            <p>On your Github: Fork https://github.com/append08/wordpress to your account.</p>
-            <p>On Render: Create new private service and link it to the forked github repository.</p>
-            <p>Attach the site to the MYSQL database.</p>
-            <p>Deploy and access the URL</p>
+        </section>
+
+        <section>
+            <h2>Setup From Scratch</h2>
+
+            <h3>Create MySQL Database</h3>
+            <p>Follow the official deployment guide to set up your database:</p>
+            <p><a href="https://render.com/docs/deploy-mysql" target="_blank">MySQL Deployment Instructions</a></p>
+
+            <h3>Create WordPress Site</h3>
+            <p>Deploy your WordPress site using Render:</p>
+            <p><a href="https://render.com/docs/deploy-wordpress" target="_blank">WordPress Deployment Instructions</a></p>
+        </section>
+
+        <section>
+            <h2>Editor Access</h2>
+            <p>To access the editor version of the site, visit:</p>
+            <p><a href="https://wordpress-t8kb.onrender.com/login" target="_blank">Login to WordPress Editor</a></p>
+        </section>
+
+        <section>
+            <h2>Testing</h2>
+            <ul class="subcat">
+                <li><b>Manual Testing:</b> Use <a href="https://www.selenium.dev/" target="_blank">Selenium</a> for web interaction tests.</li>
+                <li><b>Automated Testing:</b> Selenium can also be used to write automated test scripts for repeated testing workflows.</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Release Workflow</h2>
+            <p>To release a new version or update, simply save your changes on the site.</p>
+        </section>
+
+        <section>
+            <h2>Bug Tracking</h2>
+            <p>Track and manage bugs using GitHub Issues.</p>
+        </section>
+
+        <section>
+            <h2>Documentation & Plugins</h2>
+            <ul class="subcat">
+                <li><b>Shared Files Plugin:</b> <a href="https://www.sharedfilespro.com/docs/" target="_blank">Plugin Documentation</a></li>
+                <li><b>WordPress Official Docs:</b> <a href="https://wordpress.org/documentation/" target="_blank">View Documentation</a></li>
+            </ul>
         </section>
     </main>
 
 </body>
 </html>
+
