@@ -31,6 +31,8 @@ Admin users should have a login feature that allows them to edit the page and ma
 
 **How to access** Go to https://wordpress-t8kb.onrender.com
 
+**Website Demo:** Watch this demo video to for a basic understanding of how to use the website. https://youtu.be/jExnu-FgQ3o
+
 **Admin Login** Click the log in button in the top right. Enter valid credentials for an admin user.
 
 ## Developer Documentation
